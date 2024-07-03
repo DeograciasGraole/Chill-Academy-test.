@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="Jscript.js"></script>
+
+    <title>Lifestyle Store</title>
+  </head>
+  <body>
+    <header>
+      <nav class="inner_header">
+        <a href="" class="Logos">Lifestyle <span>Store</span></a>
+
+        <div class="hamberger_menu">
+          <span class="hover_span" onclick="hideSidebar()"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#e8eaed"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              /></svg
+          ></span>
+          <a href="#">Log in</a>
+          <a href="#">Sign Up</a>
+        </div>
+
+        <ul>
+          <li class="hidden_list"><a href="#">Sign Up</a></li>
+          <li class="hidden_list"><a href="#">Log in</a></li>
+          <li class="Menu" onclick="showSidebar()">
+            <a href="#"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#fff"
+              >
+                <path
+                  d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="Content">
+      <div class="Content_top">
+        <section class="Container">
+          <div>
+            <h1>WE sell lifestyle</h1>
+            <p>Online shopping is Now</p>
+          </div>
+          <button class="btn_shop">Shop Now</button>
+        </section>
+      </div>
+      <div class="Content_bottom">
+        <div class="card">
+          <img src="image/watches3.jpg" width="200px" height="auto" alt="" />
+          <div class="card-content">
+            <h3>Watches</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="image/sale_camera_01.jpg" alt="" />
+          <div class="card-content">
+            <h3>Camera</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="image/shirt.jpg" alt="" />
+          <div class="card-content">
+            <h3>Shirts</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>
+        Copyright © Lifestyle Store. All Rights Reserved | Contact Us: +91 90000
+        00000
+      </p>
+    </footer>
+  </body>
+</html>

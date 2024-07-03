@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  /*background-color: blueviolet;*/
+}
+/* 
+body {
+display: flex;
+flex-direction: column;
+} */
+
+header {
+  background-color: black;
+}
+
+.inner_header {
+  background-color: rgb(2, 2, 2);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.inner_header ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.inner_header .Logos {
+  font-weight: 700;
+}
+
+.inner_header span {
+  color: red;
+  font-weight: 900;
+}
+
+.inner_header li {
+  height: 70px;
+}
+
+.inner_header a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.Menu {
+  display: none;
+}
+.hamberger_menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(10px);
+  background-color: rgba(11, 11, 11, 0.664);
+  width: 100%;
+  height: 200px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 35px 70px;
+  border-bottom-right-radius: 60%;
+  transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease,
+    backdrop-filter 0.3s ease;
+  gap: 12px;
+  /* color: black; */
+}
+.hover_span:hover {
+  color: red;
+}
+
+/* .hamberger_menu:hover {
+  width: 250px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(15px);
+} */
+
+/* 
+.sidebar li {
+  width: 100%;
+}
+.sidebar a {
+  width: 100%;
+} */
+
+.Content {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-color: aqua; */
+}
+.Content .Content_top {
+  flex: 1;
+  width: 100%;
+  height: 550px;
+  background-color: brown;
+  background-image: url(image/shopping-trolleys-packets-gift-tags.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Content_top .Container {
+  width: 700px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.542);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.Content_top .Container div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+}
+.Content_top .Container h1 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.07;
+  /* text-align: center; */
+}
+.Content_top .Container p {
+  font-size: 16px;
+
+  line-height: 1.06;
+  /* text-align: center; */
+}
+
+.Content_top .Container button {
+  font-size: 18px;
+  background-color: red;
+  border: 1px solid red;
+  padding: 10px 20px;
+}
+
+.Content .Content_bottom {
+  flex: 1;
+  width: 100%;
+  height: 500;
+
+  /* background-color: rgb(42, 165, 108); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.card {
+  width: 325px;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.2);
+  margin: 10px 20px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card-content {
+  padding: 0 16px;
+}
+.card-content h3 {
+  font-size: 28px;
+  color: black;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.card-content p {
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  /* margin-bottom: 8px; */
+}
+
+.footer {
+  height: 10%;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1118px) {
+  .Content {
+    height: 1200px;
+  }
+}
+@media (max-width: 942px) {
+  .inner_header {
+    padding: 0px 28px;
+  }
+}
+
+@media (max-width: 742px) {
+  .Content {
+    height: 1580px;
+  }
+
+  .Content .Content_top {
+    flex: 0;
+    height: 300px;
+
+    padding: 0px;
+  }
+
+  .Content .Content_bottom {
+    flex: 0;
+    height: 400px;
+
+    gap: 0px;
+  }
+}
+
+@media (max-width: 651px) {
+  .inner_header {
+    padding: 13px 28px;
+  }
+  .hidden_list {
+    display: none;
+  }
+  .Menu {
+    display: flex;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 425px) {
+  .inner_header {
+    padding: 13px 6px;
+  }
+}
