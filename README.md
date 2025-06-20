@@ -11,8 +11,7 @@
   <h2>📋 Overview</h2>
   <p>
     This repository contains the <strong>frontend</strong> code for a simple eCommerce website built using only 
-    <strong>HTML, CSS, and JavaScript</strong>. It allows users to browse products, manage their shopping cart, 
-    and simulate checkout (can connect to a backend API if available).
+    <strong>HTML, CSS, and JavaScript</strong>. It allows users to browse products, 
   </p>
 
   <h2>🔗 Live Demo</h2>
