@@ -17,7 +17,7 @@
 
   <h2>🔗 Live Demo</h2>
   <p>
-    👉 <a href="[https://your-demo-url.com](https://deograciasgraole.github.io/Chill-Academy-test./)" target="_blank">View Live Demo</a><br>
+    👉 <a href="https://deograciasgraole.github.io/Chill-Academy-test./" target="_blank">View Live Demo</a><br>
     <em>Replace the link above with your deployed site URL.</em>
   </p>
 
