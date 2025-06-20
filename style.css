@@ -12,14 +12,10 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   overflow-x: hidden;
 }
-/* 
-body {
-display: flex;
-flex-direction: column;
-} */
 
 header {
   background-color: black;
+  ////
 }
 
 .inner_header {
@@ -83,21 +79,6 @@ header {
 .hover_span:hover {
   color: red;
 }
-
-/* .hamberger_menu:hover {
-  width: 250px;
-  height: 250px;
-  background-color: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(15px);
-} */
-
-/* 
-.sidebar li {
-  width: 100%;
-}
-.sidebar a {
-  width: 100%;
-} */
 
 .Content {
   width: 100%;
@@ -258,3 +239,4 @@ header {
     padding: 13px 6px;
   }
 }
+/* css end*************************/
